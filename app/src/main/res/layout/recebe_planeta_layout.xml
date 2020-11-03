@@ -9,17 +9,17 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="105dp"
-        android:text="@string/terra"
+        android:text="O Ladrão de Raios"
         android:textColor="#000"
         android:textSize="30dp" />
 
     <ImageView
         android:id="@+id/imgRecebePlaneta"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_below="@id/txtRecebePaneta"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
-        android:src="@drawable/terra" />
+        android:src="@drawable/ladRaio" />
 
 </RelativeLayout>

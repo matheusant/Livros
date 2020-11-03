@@ -16,10 +16,14 @@ public class MainActivity extends AppCompatActivity {
     //Declarar o gridview
     GridView gridView;
 
-    String[] namePlanets = {"Jupiter", "Lua", "Marte", "Plutão", "Saturno", "Sol", "Terra", "Venus"};
-    int[] imagePlanets = {R.drawable.jupiter, R.drawable.lua, R.drawable.marte,
-            R.drawable.plutao, R.drawable.saturno, R.drawable.sol,
-            R.drawable.terra, R.drawable.venus,};
+    String[] namePlanets = {"O Ladrão de Raios", "O Mar de Monstros", "A Maldição do Titã", "A Batalha do Labirinto",
+            "O Último Olimpiano", "O Herói Perdido", "O Filho de Netuno", "A Marca de Atena",
+            "A Casa de Hades", "O Sangue do Olimpo", "O Oráculo Oculto", "A Profecia das Sombras",
+            "O Labirinto de Fogo", "A Tumba do Tirano"};
+    int[] imagePlanets = {R.drawable.ladRaio, R.drawable.marMon, R.drawable.malTita,
+            R.drawable.batLab, R.drawable.ultOlim, R.drawable.herPerd,
+            R.drawable.filNet, R.drawable.marcAten, R.drawable.casHad, R.drawable.sanOli
+            , R.drawable.oracOcul, R.drawable.profSomb, R.drawable.labFogo, R.drawable.tumbTir};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
