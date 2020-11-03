@@ -19,11 +19,13 @@ public class MainActivity extends AppCompatActivity {
     String[] namePlanets = {"O Ladrão de Raios", "O Mar de Monstros", "A Maldição do Titã", "A Batalha do Labirinto",
             "O Último Olimpiano", "O Herói Perdido", "O Filho de Netuno", "A Marca de Atena",
             "A Casa de Hades", "O Sangue do Olimpo", "O Oráculo Oculto", "A Profecia das Sombras",
-            "O Labirinto de Fogo", "A Tumba do Tirano"};
-    int[] imagePlanets = {R.drawable.ladRaio, R.drawable.marMon, R.drawable.malTita,
-            R.drawable.batLab, R.drawable.ultOlim, R.drawable.herPerd,
-            R.drawable.filNet, R.drawable.marcAten, R.drawable.casHad, R.drawable.sanOli
-            , R.drawable.oracOcul, R.drawable.profSomb, R.drawable.labFogo, R.drawable.tumbTir};
+            "O Labirinto de Fogo", "A Tumba do Tirano", "A Espada do Verão", "O Martelo de Thor", "O Navio dos Mortos"
+            ,"A Pirâmide Vermelha", "O Trono de Fogo", "A Sombra da Serpente"};
+    int[] imagePlanets = {R.drawable.ladraio, R.drawable.marmon, R.drawable.maltita,
+            R.drawable.batlab, R.drawable.ultolim, R.drawable.herperd,
+            R.drawable.filnet, R.drawable.marcaten, R.drawable.cashad, R.drawable.sanoli
+            , R.drawable.oracocul, R.drawable.profsomb, R.drawable.labfogo, R.drawable.tumbtir, R.drawable.espver,
+            R.drawable.martthor, R.drawable.navmort, R.drawable.pirverm, R.drawable.tronfogo, R.drawable.sombserp};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

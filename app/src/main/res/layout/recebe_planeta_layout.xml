@@ -20,6 +20,6 @@
         android:layout_below="@id/txtRecebePaneta"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
-        android:src="@drawable/ladRaio" />
+        android:src="@drawable/ladraio" />
 
 </RelativeLayout>
